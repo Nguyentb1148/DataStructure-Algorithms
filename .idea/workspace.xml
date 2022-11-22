@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9bdd1eb-530f-4022-8434-2728981a0bc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/AbstractStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LList/LList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/PT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/PT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +61,7 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stack">
+  <component name="RunManager" selected="Application.ListStudent">
     <configuration name="ArrList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList.ArrList" />
       <module name="ADTExample" />
@@ -94,19 +88,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="LList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LList.LList" />
       <module name="ADTExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.PT" />
+    <configuration name="ListStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P3Asm.ListStudent" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="P3Asm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.Queue" />
+      <module name="ADTExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,9 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListStudent" />
+        <item itemvalue="Application.LList" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.ArrList" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +166,7 @@
       <workItem from="1668665909710" duration="3405000" />
       <workItem from="1668670154866" duration="130000" />
       <workItem from="1668670305252" duration="8888000" />
-      <workItem from="1669097534943" duration="361000" />
+      <workItem from="1669097534943" duration="8176000" />
     </task>
     <servers />
   </component>
