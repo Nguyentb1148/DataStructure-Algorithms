@@ -1,4 +1,4 @@
-package Week1;
+package Array;
 
 
 import java.util.Random;
