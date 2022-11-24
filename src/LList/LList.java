@@ -86,6 +86,6 @@ public class LList {
         lList.deleteLast();
         System.out.println();
         lList.print();
-//        System.out.println(lList.Search(0));
+        System.out.println(lList.Search(1));
     }
 }

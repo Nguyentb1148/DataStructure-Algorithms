@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9bdd1eb-530f-4022-8434-2728981a0bc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LList/LList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Binary/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GCD/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HanoiTower/HanoiTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LList/LList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LList/LList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Array/Array.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Array/PT.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/P3Asm/ListStudent.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,13 +66,13 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListStudent">
-    <configuration name="ArrList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayList.ArrList" />
+  <component name="RunManager" selected="Application.Gcd">
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary.Binary" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayList.*" />
+          <option name="PATTERN" value="Binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Array" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LList.LList" />
+    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GCD.Gcd" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LList.*" />
+          <option name="PATTERN" value="GCD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P3Asm.ListStudent" />
+    <configuration name="HanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HanoiTower.HanoiTower" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P3Asm.*" />
+          <option name="PATTERN" value="HanoiTower.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.Queue" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Recursion" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListStudent" />
-        <item itemvalue="Application.LList" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.ArrList" />
-        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Gcd" />
+        <item itemvalue="Application.HanoiTower" />
+        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +171,9 @@
       <workItem from="1668665909710" duration="3405000" />
       <workItem from="1668670154866" duration="130000" />
       <workItem from="1668670305252" duration="8888000" />
-      <workItem from="1669097534943" duration="8176000" />
+      <workItem from="1669097534943" duration="8835000" />
+      <workItem from="1669185565427" duration="2606000" />
+      <workItem from="1669269196568" duration="12274000" />
     </task>
     <servers />
   </component>
@@ -178,7 +185,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
