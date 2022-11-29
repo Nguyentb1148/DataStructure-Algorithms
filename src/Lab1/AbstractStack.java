@@ -1,4 +1,4 @@
-package Lab2;
+package Lab1;
 
 public interface AbstractStack<E> extends Iterable<E> {
     void push(E element);
