@@ -99,16 +99,16 @@ public class ListEmployees {
         }
         void SortByName(){
             System.out.println("sort by name");
-            String temp;
             for (int i = 0; i < count; i++) {
                 int min=i;
                 for (int j = i; j < count; j++) {
-                    if (listEmployee[j].name.compareTo(listEmployee[min].name)>0){
+                    if (listEmployee[j].name.compareToIgnoreCase(listEmployee[min].name)<0){
                       min=j;
+                        Employee employee=listEmployee[i];
+                        listEmployee[i]=listEmployee[min];
+                        listEmployee[min]=employee;
                     }
-                    Employee employee=listEmployee[i];
-                    listEmployee[i]=listEmployee[min];
-                    listEmployee[min]=employee;
+
                 }
             }
         }
@@ -138,13 +138,13 @@ public class ListEmployees {
 //        System.out.println("Name? ");
 //        String name=sc.nextLine();
 //        listEmployees.SearchByName(name);
-//        listEmployees.SortByName();
-//        listEmployees.print();
+        listEmployees.SortByName();
+        listEmployees.print();
 //        String id ="201889";
 //        float newCommission=100;
 //        listEmployees.updateCommission(newCommission,id);
 //        listEmployees.print();
-        listEmployees.printZeroCommission();
+//        listEmployees.printZeroCommission();
     }
 
     public static Scanner sc = new Scanner(System.in);
