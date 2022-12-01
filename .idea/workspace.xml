@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9bdd1eb-530f-4022-8434-2728981a0bc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p3asm1/ListEmployees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/AbstractStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/AbstractStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array">
+  <component name="RunManager" selected="Application.ListEmployees">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.Array" />
       <module name="ADTExample" />
@@ -83,19 +81,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci" />
-      <module name="ADTExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p3asm1.ListEmployees" />
+      <module name="ADTExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p3asm1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stack" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.Stack" />
       <module name="ADTExample" />
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListEmployees" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Gcd" />
         <item itemvalue="Application.HanoiTower" />
         <item itemvalue="Application.Binary" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,8 @@
       <workItem from="1669097534943" duration="8835000" />
       <workItem from="1669185565427" duration="2606000" />
       <workItem from="1669269196568" duration="12950000" />
-      <workItem from="1669702303398" duration="4148000" />
+      <workItem from="1669702303398" duration="6248000" />
+      <workItem from="1669874329176" duration="7130000" />
     </task>
     <servers />
   </component>

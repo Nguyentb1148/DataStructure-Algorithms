@@ -22,9 +22,24 @@ public class Array {
             }
             array[p-1]=x;
         }
-        void delete(int m,int n){
+        void remove(int m, int n){
             for (int i = m-1; i < n; i++) {
                 array[i]=array[i+1];
+            }
+
+        }
+        void search(int x,int n){
+            int position=-1;
+            for (int i = 0; i < n; i++) {
+                if (array[i]==x){
+                    position=i+1;
+                }
+            }
+            if (position==-1){
+                System.out.println("Not found!!!");
+            }
+            else {
+                System.out.printf("%d :place %d",x,position);
             }
         }
     public static void main(String[] args) {
@@ -35,8 +50,11 @@ public class Array {
         array1.insert(5,2,n);
         System.out.println("\nAfter add 5 in position 2: ");
         array1.print(n+1);
-        array1.delete(2,n);
+        array1.remove(2,n);
         System.out.println("\nAfter remove position 2: ");
         array1.print(n);
+        System.out.println();
+        array1.search(4,n);
+
     }
 }
