@@ -4,47 +4,13 @@ import java.util.Scanner;
 
 class Student {//create class Student
         String Id, Name, Phone, AClass;
-        Student(){
-
-        }
+        Student(){}
         Student(String id, String name, String phone, String aClass){
             this.Id=id;
             this.AClass=aClass;
             this.Name= name;
             this.Phone=phone;
         }
-
-    public String getAClass() {
-        return AClass;
-    }
-
-    public void setAClass(String AClass) {
-        this.AClass = AClass;
-    }
-
-    public String getPhone() {
-        return Phone;
-    }
-
-    public void setPhone(String phone) {
-        Phone = phone;
-    }
-
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public String getId() {
-        return Id;
-    }
-
-    public void setId(String id) {
-        Id = id;
-    }
 }
     class Node{
         Student data;//data=1 Student;
@@ -52,7 +18,7 @@ class Student {//create class Student
     }
 public class ListStudent {
         Node head=null,tail=null;
-    void AddFist(Student x){//add x into head of list
+    void AddFirst(Student x){//add x into head of list
         Node p=new Node();//Create new Node
         p.data=x;//insert x into p's data
         p.next=null;
@@ -170,5 +136,11 @@ public class ListStudent {
         System.out.print("Id?  ");
         String id=sc.nextLine();
         student.searchId(id);
+        System.out.println("Delete First: ");
+        student.DeleteFisrt();
+        student.print();
+        System.out.println("Delete Last: ");
+        student.DeleteLast();
+        student.print();
     }
 }

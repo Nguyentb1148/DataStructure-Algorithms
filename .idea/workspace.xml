@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9bdd1eb-530f-4022-8434-2728981a0bc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/p3asm1/ListEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p3asm1/ListEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SourceAsm1/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dijkstraAlgorithm/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dijkstraAlgorithm/ShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P3Asm/ListStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p3asm1/ListEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/ListEmployees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,31 +46,32 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.updates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListEmployees">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.Array" />
+  <component name="RunManager" selected="Application.ListStudent">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dijkstraAlgorithm.Dijkstra" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.*" />
+          <option name="PATTERN" value="dijkstraAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,38 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary.Binary" />
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SourceAsm1.GFG" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCD.Gcd" />
-      <module name="ADTExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GCD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HanoiTower.HanoiTower" />
-      <module name="ADTExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HanoiTower.*" />
+          <option name="PATTERN" value="SourceAsm1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +93,37 @@
       </method>
     </configuration>
     <configuration name="ListEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p3asm1.ListEmployees" />
+      <option name="MAIN_CLASS_NAME" value="Lab3.ListEmployees" />
       <module name="ADTExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p3asm1.*" />
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P3Asm.ListStudent" />
+      <module name="ADTExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P3Asm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dijkstraAlgorithm.ShortestPath" />
+      <module name="ADTExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dijkstraAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestPath" />
+        <item itemvalue="Application.ListStudent" />
         <item itemvalue="Application.ListEmployees" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Gcd" />
-        <item itemvalue="Application.HanoiTower" />
-        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.Dijkstra" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +174,11 @@
       <workItem from="1669185565427" duration="2606000" />
       <workItem from="1669269196568" duration="12950000" />
       <workItem from="1669702303398" duration="6248000" />
-      <workItem from="1669874329176" duration="11667000" />
+      <workItem from="1669874329176" duration="12405000" />
+      <workItem from="1669990346549" duration="62000" />
+      <workItem from="1670309349587" duration="7080000" />
+      <workItem from="1670480457314" duration="6806000" />
+      <workItem from="1670490927183" duration="23000" />
     </task>
     <servers />
   </component>
@@ -197,10 +207,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ADTExample$Array.ic" NAME="Array Coverage Results" MODIFIED="1668501551268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ADTExample$PT.ic" NAME="PT Coverage Results" MODIFIED="1668499730274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Week1.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ADTExample$PT.ic" NAME="PT Coverage Results" MODIFIED="1668499730274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ADTExample$Array.ic" NAME="Array Coverage Results" MODIFIED="1668501551268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Week1.*</FILTER>
     </SUITE>
   </component>
